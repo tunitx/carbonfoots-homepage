@@ -1,0 +1,17 @@
+div{
+    background-color: aqua ;
+    height: 300px;
+    width: 300px;
+    margin: 100px;
+    transition: transform 0.5s ease-in-out;
+    /* transition:; */
+    /* transition: transform 0.5s ease-in-out; */
+}
+div:hover{
+transform: rotate(300deg);
+transform: scale(0.5, 0.5);
+ /* transform: translateX(200px); */
+/* border-radius: 400px; */
+/* height: 200px; */
+/* width: 200px; */ 
+}
