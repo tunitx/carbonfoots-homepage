@@ -2,8 +2,15 @@
     font-family: monospace;;
 } */
 
-body{
+body {
     margin: 0;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 #dash h1{
